@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'favorite.dart';
+import 'favoriteB.dart';
+import 'favoriteC.dart';
 void main() {
   runApp(MyApp());
 }
@@ -33,10 +35,13 @@ class MyApp extends StatelessWidget {
               ],
             ),
           ),
+              /*3*/
           FavoriteWidget(),
-        ],
-      ),
-    );
+          ParentMangeB(),
+          ParentMangeC(),
+    ],
+  ),
+);
 
     Color color = Theme.of(context).primaryColor;
 
